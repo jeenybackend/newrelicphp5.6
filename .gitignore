@@ -1,0 +1,12 @@
+# Managed by Composer
+/vendor/
+composer.lock
+# PHPUnit
+/phpunit.xml
+
+# Composer PHAR
+/composer.phar
+
+#Development
+.DS_Store
+.idea/

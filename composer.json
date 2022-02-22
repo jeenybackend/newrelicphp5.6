@@ -1,0 +1,32 @@
+{
+    "name": "easytaxibr/newrelic",
+    "description": "NewRelic Tools for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcelo Milhomem",
+            "email": "marcelo.milhomem@easytaxi.com.br",
+            "homepage": "http://easytaxi.com",
+            "role": "Engineer"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "EasyTaxi\\NewRelic\\" : "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "^6.1",
+        "Respect/Validation": "~1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "^2.4"
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "EasyTaxi\\NewRelic\\" : "tests"
+        }
+    }
+}
